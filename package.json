@@ -1,0 +1,68 @@
+{
+  "name": "file-dna",
+  "productName": "File DNA",
+  "version": "1.0.0",
+  "description": "File DNA - Advanced Forensic Intelligence, Checksum Analysis & Duplicate Detection for Windows",
+  "main": "electron/main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "electron .",
+    "build": "electron-builder build",
+    "build:win": "electron-builder build --win",
+    "dist": "electron-builder --win",
+    "dist:portable": "electron-builder --win portable",
+    "dist:nsis": "electron-builder --win nsis"
+  },
+  "keywords": [
+    "file-dna",
+    "forensics",
+    "sha-256",
+    "entropy",
+    "duplicates",
+    "windows",
+    "desktop"
+  ],
+  "author": "Uday Kiran Jammula",
+  "license": "MIT",
+  "build": {
+    "appId": "com.filedna.app",
+    "productName": "File DNA",
+    "files": [
+      "electron/**/*",
+      "renderer/**/*",
+      "assets/**/*",
+      "!**/node_modules/.cache/**/*"
+    ],
+    "directories": {
+      "output": "release"
+    },
+    "win": {
+      "target": [
+        {
+          "target": "nsis",
+          "arch": ["x64"]
+        },
+        {
+          "target": "portable",
+          "arch": ["x64"]
+        }
+      ],
+      "icon": "assets/icon.ico"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "File DNA"
+    },
+    "portable": {
+      "artifactName": "File-DNA-Portable-${version}.${ext}"
+    },
+    "artifactName": "${productName}-Setup-${version}.${ext}"
+  },
+  "devDependencies": {
+    "electron": "^31.0.0",
+    "electron-builder": "^24.13.3"
+  }
+}

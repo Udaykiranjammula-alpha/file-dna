@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+
+# Production Builds & Release Artifacts
+release/
+dist/
+build/
+*.exe
+*.zip
+*.blockmap
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment & OS files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# IDE & Editor Settings
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Storage persistence cache
+filedna-index.json
