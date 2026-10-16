@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FileDNA</string>
+    <string name="tagline">Digital File Intelligence</string>
+    <string name="action_scan">Scan Storage</string>
+    <string name="action_inspect">Inspect File</string>
+    <string name="action_duplicates">Duplicates</string>
+    <string name="action_pdf">PDF Tools</string>
+    <string name="action_hash">Hash Verifier</string>
+    <string name="action_reports">Reports</string>
+</resources>

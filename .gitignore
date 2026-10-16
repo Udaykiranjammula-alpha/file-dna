@@ -1,5 +1,7 @@
 # Dependencies
 node_modules/
+.npm-cache/
+.electron-builder-cache/
 
 # Production Builds & Release Artifacts
 release/
@@ -8,6 +10,14 @@ build/
 *.exe
 *.zip
 *.blockmap
+*.apk
+*.aab
+
+# Android build outputs
+android/.gradle/
+android/app/build/
+android/release/
+.gradle/
 
 # Logs
 logs/
@@ -33,3 +43,4 @@ Desktop.ini
 
 # Storage persistence cache
 filedna-index.json
+filedna-settings.json

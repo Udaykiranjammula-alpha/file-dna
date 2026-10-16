@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="dna_black">#08080A</color>
+    <color name="dna_surface">#121216</color>
+    <color name="dna_card">#18181D</color>
+    <color name="dna_accent">#00E5FF</color>
+    <color name="dna_green">#22C55E</color>
+    <color name="dna_amber">#EAB308</color>
+    <color name="dna_red">#EF4444</color>
+    <color name="dna_text_primary">#F4F4F5</color>
+    <color name="dna_text_secondary">#A1A1AA</color>
+    <color name="dna_text_muted">#71717A</color>
+    <color name="dna_border">#27272A</color>
+</resources>

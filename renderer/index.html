@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>File DNA — by Uday Kiran Jammula</title>
+  <title>File DNA — Created by Uday Kiran Jammula</title>
   <link rel="stylesheet" href="css/styles.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -36,7 +36,7 @@
         </div>
         <div class="brand-text">
           <div class="brand-title">FILE DNA</div>
-          <div class="brand-sub">by Uday Kiran Jammula</div>
+          <div class="brand-sub">Created by Uday Kiran Jammula</div>
         </div>
       </div>
 
@@ -61,6 +61,26 @@
           <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><line x1="8" x2="21" y1="6" y2="6"/><line x1="8" x2="21" y1="12" y2="12"/><line x1="8" x2="21" y1="18" y2="18"/><line x1="3" x2="3.01" y1="6" y2="6"/><line x1="3" x2="3.01" y1="12" y2="12"/><line x1="3" x2="3.01" y1="18" y2="18"/></svg>
           <span>Files</span>
         </button>
+
+        <button class="nav-item" data-tab="forensics">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          <span>Forensics</span>
+        </button>
+
+        <button class="nav-item" data-tab="pdf">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><line x1="10" y1="9" x2="8" y2="9"/></svg>
+          <span>PDF Tools</span>
+        </button>
+
+        <button class="nav-item" data-tab="converter">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><polyline points="16 3 21 3 21 8"/><line x1="4" y1="20" x2="21" y2="3"/><polyline points="21 16 21 21 16 21"/><line x1="15" y1="15" x2="21" y2="21"/><line x1="4" y1="4" x2="9" y2="9"/></svg>
+          <span>Converter</span>
+        </button>
+
+        <button class="nav-item" data-tab="settings">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+          <span>Settings</span>
+        </button>
       </nav>
 
       <!-- Sidebar Bottom: Creator Card & Quick Scan -->
@@ -74,7 +94,7 @@
           <div class="creator-avatar">UK</div>
           <div class="creator-info">
             <span class="creator-name">Uday Kiran Jammula</span>
-            <span class="creator-role">Lead Architect</span>
+            <span class="creator-role">Creator &amp; Architect</span>
           </div>
         </div>
       </div>
@@ -87,6 +107,10 @@
         <div class="search-box">
           <svg class="search-icon" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
           <input type="text" id="global-search" placeholder="Search by name, extension, or SHA-256 hash...">
+        </div>
+
+        <div class="topbar-creator" style="display:flex;align-items:center;margin-left:auto;margin-right:12px;font-size:11px;color:var(--text-muted);background:rgba(255,255,255,0.03);padding:4px 10px;border-radius:20px;border:1px solid var(--border-color)">
+          <span>Created by <strong style="color:var(--text-primary)">Uday Kiran Jammula</strong></span>
         </div>
 
         <div class="topbar-actions">
@@ -105,6 +129,21 @@
           </button>
         </div>
       </header>
+
+      <!-- Scan Progress Bar -->
+      <div id="scan-progress-bar" class="scan-progress-bar hidden">
+        <div class="scan-progress-info">
+          <span id="scan-progress-text">Scanning...</span>
+          <span id="scan-progress-stats" class="text-muted text-xs"></span>
+        </div>
+        <div class="scan-progress-track">
+          <div id="scan-progress-fill" class="scan-progress-fill"></div>
+        </div>
+        <div class="scan-progress-actions">
+          <button id="btn-scan-pause" class="btn btn-secondary btn-sm">Pause</button>
+          <button id="btn-scan-cancel" class="btn btn-ghost btn-sm text-amber">Cancel</button>
+        </div>
+      </div>
 
       <!-- Content Scroll -->
       <div class="content-scroll">
@@ -135,10 +174,22 @@
               <div class="stat-value" id="stat-avg-entropy">0.00</div>
               <div class="stat-sub">Bits / byte randomness</div>
             </div>
+            
+            <div class="stat-card">
+              <span class="stat-label">Extension Mismatches</span>
+              <div class="stat-value" id="stat-mismatch-count">0</div>
+              <div class="stat-sub text-amber">Suspicious files</div>
+            </div>
+            
+            <div class="stat-card">
+              <span class="stat-label">Scan Errors</span>
+              <div class="stat-value" id="stat-error-count">0</div>
+              <div class="stat-sub text-amber">Failed to read</div>
+            </div>
           </div>
 
           <!-- Mid Section: Category Distribution & Clean Drop Zone -->
-          <div class="grid-2col">
+          <div class="grid-2col mt-4">
             <div class="panel">
               <div class="panel-header">
                 <h3>Storage by Category</h3>
@@ -146,6 +197,7 @@
               <div id="category-bars" class="category-bars">
                 <div class="empty-state-sm">No files indexed yet. Drag & drop files or scan a folder.</div>
               </div>
+              <canvas id="chart-type-distribution" width="400" height="200" class="mt-4"></canvas>
             </div>
 
             <div class="panel drop-target-box" id="dashboard-drop-box">
@@ -314,6 +366,17 @@
               </div>
             </div>
 
+            <!-- New sections requested -->
+            <div id="inspector-metadata-panel" class="panel mt-4 hidden">
+              <div class="panel-header"><h3>File Metadata</h3></div>
+              <div id="inspector-metadata-content" class="metadata-grid"></div>
+            </div>
+            
+            <div id="inspector-privacy-panel" class="panel mt-4 hidden">
+              <div class="panel-header"><h3 class="text-amber">⚠ Privacy Warnings</h3></div>
+              <div id="inspector-privacy-content"></div>
+            </div>
+
             <!-- Duplicate Copies Table (if any) -->
             <div id="dna-duplicates-panel" class="panel mt-4 hidden">
               <div class="panel-header">
@@ -383,6 +446,306 @@
                   </tr>
                 </tbody>
               </table>
+            </div>
+          </div>
+        </section>
+
+        <!-- 5. FORENSICS TAB (view-forensics) - NEW -->
+        <section id="view-forensics" class="tab-view">
+          <!-- File Selection -->
+          <div class="panel">
+            <div class="panel-header">
+              <h3>Forensic File Inspector</h3>
+              <button id="btn-forensic-browse" class="btn btn-action btn-sm">Select File</button>
+            </div>
+            <p class="text-muted text-xs">Perform deep forensic inspection including hex analysis, signature verification, and suspicious pattern detection.</p>
+          </div>
+          
+          <!-- Forensic Results (hidden until file selected) -->
+          <div id="forensic-results" class="hidden">
+            <!-- File Identity -->
+            <div class="panel mt-4">
+              <div class="panel-header"><h3>File Identity</h3></div>
+              <div id="forensic-identity" class="grid-3col"></div>
+            </div>
+            
+            <!-- Hash Verification -->
+            <div class="panel mt-4">
+              <div class="panel-header"><h3>Hash Verification</h3></div>
+              <div class="hash-verify-form">
+                <input type="text" id="forensic-expected-hash" placeholder="Paste expected hash to verify..." class="input-field">
+                <select id="forensic-hash-algo" class="input-field">
+                  <option value="sha256">SHA-256</option>
+                  <option value="md5">MD5</option>
+                  <option value="sha1">SHA-1</option>
+                </select>
+                <button id="btn-verify-hash" class="btn btn-action btn-sm">Verify</button>
+              </div>
+              <div id="forensic-hash-result" class="mt-3"></div>
+              <div id="forensic-hashes" class="hash-group mt-3"></div>
+            </div>
+            
+            <!-- Extension Mismatch -->
+            <div id="forensic-mismatch-panel" class="panel mt-4 hidden">
+              <div class="panel-header"><h3 class="text-amber">⚠ Extension Mismatch Detected</h3></div>
+              <div id="forensic-mismatch-content"></div>
+            </div>
+            
+            <!-- Suspicious Flags -->
+            <div id="forensic-suspicious-panel" class="panel mt-4 hidden">
+              <div class="panel-header"><h3 class="text-amber">Suspicious Characteristics</h3></div>
+              <div id="forensic-suspicious-content"></div>
+            </div>
+            
+            <!-- Hex Viewer -->
+            <div class="panel mt-4">
+              <div class="panel-header">
+                <h3>Hex Viewer</h3>
+                <div class="hex-controls">
+                  <button id="btn-hex-prev" class="btn btn-secondary btn-sm">← Prev</button>
+                  <span id="hex-offset-display" class="text-muted text-xs">Offset: 0x0000</span>
+                  <button id="btn-hex-next" class="btn btn-secondary btn-sm">Next →</button>
+                </div>
+              </div>
+              <pre id="forensic-hex-dump" class="hex-dump-content"></pre>
+            </div>
+            
+            <!-- Text Preview -->
+            <div class="panel mt-4">
+              <div class="panel-header"><h3>Text Preview</h3></div>
+              <pre id="forensic-text-preview" class="text-preview-content"></pre>
+            </div>
+            
+            <!-- Export -->
+            <div class="mt-4">
+              <button id="btn-export-forensic" class="btn btn-action">Export Forensic Report</button>
+            </div>
+          </div>
+        </section>
+
+        <!-- 6. PDF TOOLS TAB (view-pdf) - NEW -->
+        <section id="view-pdf" class="tab-view">
+          <div class="panel">
+            <div class="panel-header">
+              <h3>PDF Toolkit</h3>
+              <span class="text-muted text-xs">Create, merge, split, and transform PDF documents</span>
+            </div>
+          </div>
+          
+          <!-- PDF Tool Cards Grid -->
+          <div class="tools-grid mt-4">
+            <div class="tool-card" data-tool="pdf-create-text">
+              <div class="tool-icon">📝</div>
+              <h4>Text to PDF</h4>
+              <p>Create a PDF from text content</p>
+            </div>
+            <div class="tool-card" data-tool="pdf-create-images">
+              <div class="tool-icon">🖼️</div>
+              <h4>Images to PDF</h4>
+              <p>Combine images into a PDF</p>
+            </div>
+            <div class="tool-card" data-tool="pdf-merge">
+              <div class="tool-icon">📎</div>
+              <h4>Merge PDFs</h4>
+              <p>Combine multiple PDFs into one</p>
+            </div>
+            <div class="tool-card" data-tool="pdf-split">
+              <div class="tool-icon">✂️</div>
+              <h4>Split PDF</h4>
+              <p>Split PDF into page ranges</p>
+            </div>
+            <div class="tool-card" data-tool="pdf-extract-pages">
+              <div class="tool-icon">📄</div>
+              <h4>Extract Pages</h4>
+              <p>Extract specific pages</p>
+            </div>
+            <div class="tool-card" data-tool="pdf-rotate">
+              <div class="tool-icon">🔄</div>
+              <h4>Rotate Pages</h4>
+              <p>Rotate PDF pages</p>
+            </div>
+            <div class="tool-card" data-tool="pdf-watermark">
+              <div class="tool-icon">💧</div>
+              <h4>Add Watermark</h4>
+              <p>Add text watermark to PDF</p>
+            </div>
+            <div class="tool-card" data-tool="pdf-page-numbers">
+              <div class="tool-icon">#</div>
+              <h4>Page Numbers</h4>
+              <p>Add page numbers to PDF</p>
+            </div>
+            <div class="tool-card" data-tool="pdf-extract-text">
+              <div class="tool-icon">📋</div>
+              <h4>Extract Text</h4>
+              <p>Extract text from PDF</p>
+            </div>
+            <div class="tool-card" data-tool="pdf-metadata">
+              <div class="tool-icon">ℹ️</div>
+              <h4>PDF Metadata</h4>
+              <p>View and edit PDF properties</p>
+            </div>
+            <div class="tool-card" data-tool="pdf-compress">
+              <div class="tool-icon">📦</div>
+              <h4>Compress PDF</h4>
+              <p>Reduce PDF file size</p>
+            </div>
+          </div>
+          
+          <!-- PDF Operation Workspace (shown when a tool is selected) -->
+          <div id="pdf-workspace" class="panel mt-4 hidden">
+            <div class="panel-header">
+              <h3 id="pdf-tool-title">Tool</h3>
+              <button id="btn-pdf-back" class="btn btn-ghost btn-sm">← Back to Tools</button>
+            </div>
+            <div id="pdf-tool-content"></div>
+            <div id="pdf-tool-result" class="mt-4 hidden"></div>
+          </div>
+        </section>
+
+        <!-- 7. CONVERTER TAB (view-converter) - NEW -->
+        <section id="view-converter" class="tab-view">
+          <div class="panel">
+            <div class="panel-header">
+              <h3>File Converter & Tools</h3>
+              <span class="text-muted text-xs">Convert, compress, and process files</span>
+            </div>
+          </div>
+          
+          <div class="tools-grid mt-4">
+            <div class="tool-card" data-tool="img-convert">
+              <div class="tool-icon">🖼️</div>
+              <h4>Image Converter</h4>
+              <p>Convert between PNG, JPEG, WebP, TIFF, BMP</p>
+            </div>
+            <div class="tool-card" data-tool="img-resize">
+              <div class="tool-icon">📐</div>
+              <h4>Resize Image</h4>
+              <p>Resize images with quality control</p>
+            </div>
+            <div class="tool-card" data-tool="img-compress">
+              <div class="tool-icon">📦</div>
+              <h4>Compress Image</h4>
+              <p>Reduce image file size</p>
+            </div>
+            <div class="tool-card" data-tool="img-batch">
+              <div class="tool-icon">📁</div>
+              <h4>Batch Convert</h4>
+              <p>Convert multiple images at once</p>
+            </div>
+            <div class="tool-card" data-tool="zip-create">
+              <div class="tool-icon">🗜️</div>
+              <h4>Create ZIP</h4>
+              <p>Create ZIP archives</p>
+            </div>
+            <div class="tool-card" data-tool="zip-extract">
+              <div class="tool-icon">📂</div>
+              <h4>Extract ZIP</h4>
+              <p>Extract ZIP archive contents</p>
+            </div>
+            <div class="tool-card" data-tool="zip-inspect">
+              <div class="tool-icon">🔍</div>
+              <h4>Inspect Archive</h4>
+              <p>View archive contents safely</p>
+            </div>
+            <div class="tool-card" data-tool="batch-rename">
+              <div class="tool-icon">✏️</div>
+              <h4>Batch Rename</h4>
+              <p>Rename multiple files with rules</p>
+            </div>
+            <div class="tool-card" data-tool="batch-hash">
+              <div class="tool-icon">#️⃣</div>
+              <h4>Batch Hash</h4>
+              <p>Calculate hashes for multiple files</p>
+            </div>
+            <div class="tool-card" data-tool="json-format">
+              <div class="tool-icon">{}</div>
+              <h4>JSON Formatter</h4>
+              <p>Format and validate JSON</p>
+            </div>
+            <div class="tool-card" data-tool="csv-preview">
+              <div class="tool-icon">📊</div>
+              <h4>CSV Viewer</h4>
+              <p>Preview CSV data</p>
+            </div>
+          </div>
+          
+          <div id="converter-workspace" class="panel mt-4 hidden">
+            <div class="panel-header">
+              <h3 id="converter-tool-title">Tool</h3>
+              <button id="btn-converter-back" class="btn btn-ghost btn-sm">← Back to Tools</button>
+            </div>
+            <div id="converter-tool-content"></div>
+            <div id="converter-tool-result" class="mt-4 hidden"></div>
+          </div>
+        </section>
+
+        <!-- 8. SETTINGS TAB (view-settings) - NEW -->
+        <section id="view-settings" class="tab-view">
+          <div class="panel">
+            <div class="panel-header"><h3>Settings</h3></div>
+            
+            <div class="settings-section">
+              <h4>Scanning Defaults</h4>
+              <div class="settings-row">
+                <label>Maximum Scan Depth</label>
+                <input type="number" id="setting-max-depth" class="input-field" value="50" min="1" max="100">
+              </div>
+              <div class="settings-row">
+                <label>Maximum File Size (MB)</label>
+                <input type="number" id="setting-max-filesize" class="input-field" value="10240" min="1">
+              </div>
+              <div class="settings-row">
+                <label>Excluded Folders (comma-separated)</label>
+                <input type="text" id="setting-exclude-folders" class="input-field" value="node_modules, .git, $RECYCLE.BIN">
+              </div>
+            </div>
+            
+            <div class="settings-section mt-4">
+              <h4>Theme</h4>
+              <div class="settings-row">
+                <label>Color Theme</label>
+                <select id="setting-theme" class="input-field">
+                  <option value="dark">Dark (Default)</option>
+                  <option value="light">Light</option>
+                </select>
+              </div>
+            </div>
+            
+            <div class="settings-section mt-4">
+              <h4>Export</h4>
+              <div class="settings-row">
+                <label>Default Report Format</label>
+                <select id="setting-report-format" class="input-field">
+                  <option value="json">JSON</option>
+                  <option value="csv">CSV</option>
+                  <option value="html">HTML</option>
+                  <option value="txt">Text</option>
+                  <option value="pdf">PDF</option>
+                </select>
+              </div>
+            </div>
+            
+            <div class="settings-section mt-4">
+              <h4>Data Management</h4>
+              <div class="settings-row">
+                <button id="btn-clear-scan-history" class="btn btn-secondary">Clear Scan History</button>
+                <button id="btn-clear-all-data" class="btn btn-ghost text-amber">Clear All Data & Index</button>
+              </div>
+              <p class="text-muted text-xs mt-3">Your scan index is stored locally. No data is sent externally.</p>
+            </div>
+            
+            <div class="settings-section mt-4">
+              <h4>About FileDNA</h4>
+              <div id="about-info" class="about-card">
+                <div><strong>FileDNA 2.0</strong> &mdash; Digital File Intelligence</div>
+                <div class="mt-1">Created by: <strong style="color:var(--text-primary)">Uday Kiran Jammula</strong></div>
+                <div>Version: <strong>1.0.0</strong> | Platform: <strong>Windows (x64)</strong></div>
+                <div class="mt-2 text-muted">100% Offline, Secure &amp; Private File Intelligence Ecosystem</div>
+              </div>
+            </div>
+            
+            <div class="mt-4">
+              <button id="btn-save-settings" class="btn btn-action">Save Settings</button>
             </div>
           </div>
         </section>

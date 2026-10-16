@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.FileDNA" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/dna_black</item>
+        <item name="android:statusBarColor">@color/dna_black</item>
+        <item name="android:navigationBarColor">@color/dna_black</item>
+        <item name="android:textColorPrimary">@color/dna_text_primary</item>
+        <item name="android:textColorSecondary">@color/dna_text_secondary</item>
+        <item name="android:colorAccent">@color/dna_accent</item>
+    </style>
+</resources>
